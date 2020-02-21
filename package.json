@@ -5,9 +5,11 @@
   "repository": "git@github.com:rshaibakov/commit-lint.git",
   "author": "<rshaibakov@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "commit": "git-cz"
+  },
   "husky": {
     "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
