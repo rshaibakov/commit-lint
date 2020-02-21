@@ -29,7 +29,7 @@
       [
         "@semantic-release/commit-analyzer",
         {
-          "preset": "conventionalcommit"
+          "preset": "conventionalcommits"
         }
       ],
       [
