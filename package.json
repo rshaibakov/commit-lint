@@ -22,10 +22,22 @@
     }
   },
   "release": {
-    "branches": ["master"],
+    "branches": [
+      "master"
+    ],
     "plugins": [
-      ["@semantic-release/commit-analyzer", { "preset": "conventionalcommit" }],
-      ["@semantic-release/npm", { "npmPublish": false }],
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "conventionalcommit"
+        }
+      ],
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
       "@semantic-release/release-notes-generator",
       "@semantic-release/changelog",
       "@semantic-release/git",
@@ -35,6 +47,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
+    "conventional-changelog-conventionalcommits": "^4.2.3",
     "cz-conventional-changelog": "3.1.0",
     "husky": "^4.2.3",
     "semantic-release": "^17.0.4"
