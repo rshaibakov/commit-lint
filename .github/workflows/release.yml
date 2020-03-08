@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  build:
+  release:
 
     runs-on: ubuntu-latest
 
@@ -17,21 +17,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@master
         with:
-          node-version: '10.x'
+          node-version: '12.x'
           
       - name: Install dependencies
-        run: yarn  
+        run: yarn
 
-      - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@master
-        with:
-          extra_plugins: |
-            @semantic-release/commit-analyzer
-            @semantic-release/release-notes-generator
-            @semantic-release/github
-            @semantic-release/npm
-            @semantic-release/changelog
-            @semantic-release/git
+      - name: Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
