@@ -18,12 +18,13 @@ jobs:
         uses: actions/setup-node@master
         with:
           node-version: '10.x'
-          
+
       - name: Install dependencies
-        run: yarn  
+        run: yarn
 
       - name: Release
         env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
