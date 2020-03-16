@@ -5,7 +5,7 @@
   "author": "<rshaibakov@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://x-access-token:<GH_TOKEN>@github.com/rshaibakov/commit-lint.git"
+    "url": "git+https://github.com/rshaibakov/commit-lint.git"
   },
   "license": "MIT",
   "husky": {
