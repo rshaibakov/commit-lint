@@ -1,3 +1,18 @@
+# [2.1.0](https://github.com/rshaibakov/commit-lint/compare/v2.0.0...v2.1.0) (2020-03-16)
+
+
+### Bug Fixes
+
+* **package.json:** change order plugins for semantic-release ([b76ae26](https://github.com/rshaibakov/commit-lint/commit/b76ae261cecf141a5648d91081f1261c75711612))
+
+
+### Features
+
+* **gitignore:** add items for gitignore ([7374db0](https://github.com/rshaibakov/commit-lint/commit/7374db0b6281f31aed53185519a3a12eae16917e))
+* **packacge.json:** change hook for commitizen on command of scripts ([3d5303e](https://github.com/rshaibakov/commit-lint/commit/3d5303eefa0c6f4a7d0d681ca7e2e82c4b172236))
+* **package.json:** remove some plugin for semantic-release ([e260884](https://github.com/rshaibakov/commit-lint/commit/e2608841743fd29078de1abb2615d830978fe847))
+* **ываыва:** ываыаваы ([beeae62](https://github.com/rshaibakov/commit-lint/commit/beeae62323a0fdbfbc6c94b7132b46cfe4bad886))
+
 # [2.0.0](https://github.com/rshaibakov/commit-lint/compare/v1.0.1...v2.0.0) (2020-03-16)
 
 
