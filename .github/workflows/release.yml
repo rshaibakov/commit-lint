@@ -4,34 +4,32 @@ on:
   push:
     branches:
       - master
+      - next
 
 jobs:
-  build:
+  release:
 
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@master
-      
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
       - name: Setup Node
         uses: actions/setup-node@master
         with:
           node-version: '10.x'
-          
+
       - name: Install dependencies
-        run: yarn  
+        run: yarn
 
       - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@master
-        with:
-          extra_plugins: |
-            @semantic-release/commit-analyzer
-            @semantic-release/release-notes-generator
-            @semantic-release/npm
-            @semantic-release/changelog
-            @semantic-release/git
-            @semantic-release/github
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_CREDENTIALS: ${{ secrets.GIT_CREDENTIALS }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          git branch -f master origin/master
+          npx semantic-release
