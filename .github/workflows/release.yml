@@ -31,5 +31,6 @@ jobs:
           GIT_CREDENTIALS: ${{ secrets.GIT_CREDENTIALS }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
+          git fetch origin
           git branch -f master origin/master
           npx semantic-release
