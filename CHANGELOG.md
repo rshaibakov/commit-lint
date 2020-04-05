@@ -1,3 +1,18 @@
+# [2.2.0](https://github.com/rshaibakov/commit-lint/compare/v2.1.0...v2.2.0) (2020-04-05)
+
+
+### Bug Fixes
+
+* **semantic-release:** ываыва ([358aef9](https://github.com/rshaibakov/commit-lint/commit/358aef9d43479d0f0b718a87c51176bee5b47128))
+
+
+### Features
+
+* **as:** asdasd ([1d3bceb](https://github.com/rshaibakov/commit-lint/commit/1d3bcebfe299a32280c09b61373e46de2d0d928a))
+* **asdas:** asdasd ([1ad2fd9](https://github.com/rshaibakov/commit-lint/commit/1ad2fd9e7141cd4261a38967c72b54887d83383b))
+* **semantic-release:** e232wew ([9df4b1a](https://github.com/rshaibakov/commit-lint/commit/9df4b1a418dd0ec98dd1468f28370e75348a431b))
+* **semantic-release:** sadfdsfd ([cc25ba6](https://github.com/rshaibakov/commit-lint/commit/cc25ba6f19138f7a795347bf57b6927d6f96e00e))
+
 # [2.1.0](https://github.com/rshaibakov/commit-lint/compare/v2.0.0...v2.1.0) (2020-03-16)
 
 
