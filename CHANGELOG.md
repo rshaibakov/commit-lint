@@ -1,3 +1,11 @@
+# [2.3.0](https://github.com/rshaibakov/commit-lint/compare/v2.2.0...v2.3.0) (2020-04-05)
+
+
+### Features
+
+* **semantic-release:** ываываыв ([22a4464](https://github.com/rshaibakov/commit-lint/commit/22a44640e2f409bbbc8dc3211071eb18b9e4a4e5))
+* **ыыыы:** ваыва ([d052628](https://github.com/rshaibakov/commit-lint/commit/d0526288558d7ed69523705bf347d900228e185d))
+
 # [2.2.0](https://github.com/rshaibakov/commit-lint/compare/v2.1.0...v2.2.0) (2020-04-05)
 
 
