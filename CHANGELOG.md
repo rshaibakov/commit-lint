@@ -1,3 +1,11 @@
+# [2.4.0](https://github.com/rshaibakov/commit-lint/compare/v2.3.0...v2.4.0) (2020-04-05)
+
+
+### Features
+
+* **asdas:** asdadsadsadsads ([f413597](https://github.com/rshaibakov/commit-lint/commit/f4135977ea45c872b0b33fc58eb05d7c14c8c9d4))
+* **sdasd:** asdasd ([ce9d738](https://github.com/rshaibakov/commit-lint/commit/ce9d73831b39b2bb18228364f2a38be21ed763c9))
+
 # [2.3.0](https://github.com/rshaibakov/commit-lint/compare/v2.2.0...v2.3.0) (2020-04-05)
 
 
