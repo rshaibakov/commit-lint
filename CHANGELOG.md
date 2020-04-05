@@ -1,3 +1,4 @@
+
 # [2.4.0](https://github.com/rshaibakov/commit-lint/compare/v2.3.0...v2.4.0) (2020-04-05)
 
 
