@@ -25,7 +25,8 @@
   },
   "release": {
     "branches": [
-      "master"
+      "master",
+      "next"
     ],
     "plugins": [
       [
